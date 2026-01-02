@@ -11,7 +11,7 @@
     │   └── val/                        # 验证集
     │       ├── images/                 # 验证图像
     │       └── labels/                 # YOLO格式验证标签
-    ├── results/              # 测试结果
+    ├── results/                        # 测试结果
     │   ├── metrics/                    # 评估指标（mAP、Precision、Recall等）
     │   ├── models/                     # 模型权重文件
     │   └── visualize/                  # 检测结果可视化示例
@@ -21,3 +21,13 @@
     └── scripts/                        # 实用脚本
         ├── evaluate.py                 # 模型评估脚本
         └── visualize.py                # 结果可视化脚本
+
+License
+
+This dataset and its annotations are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The accompanying source code (in the `scripts/` directory) is licensed under the [MIT License](LICENSE-CODE).
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
